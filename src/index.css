@@ -3,8 +3,8 @@
 :root {
     --font-family: 'Roboto', sans-serif;
 
-    --gradient-text: linear-gradient(89.97deg, #ff0400 1.84%, #ff8000 102.67%);
-    --gradient-bar: linear-gradient(103.22deg, #ff0400 -13.86%, #ff8000 99.55%);
+    --gradient-text: linear-gradient(89.97deg, #8c00ff 1.84%, #ff8000 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #8c00ff -13.86%, #ff8000 99.55%);
     
     --color-bg: #051923;
     --color-footer : #003554;
