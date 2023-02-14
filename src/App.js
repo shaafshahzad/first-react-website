@@ -1,9 +1,21 @@
 import React from 'react'
 
+import { About, Content, Footer, Header, Info } from './containers'
+import { CTA, Navbar, Front} from './components'
+
 const App = () => {
   return (
-    <div>
-      <h1>First Website</h1>
+    <div className='App'>
+        <div className='gradientBG'>
+            <Navbar />
+            <Header />
+        </div>
+        <Front />
+        <About />
+        <Info />
+        <Content />
+        <CTA />
+        <Footer />
     </div>
   )
 }
