@@ -1,0 +1,98 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+    
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 20% 24%, rgba(9, 64, 123, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 20% 24%, rgba(9, 64, 123, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 20% 24%, rgba(9, 64, 123, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 20% 24%, rgba(9, 64, 123, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 20% 24%, rgba(9, 64, 123, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.about-feature {
+    display: flex;
+}
+
+.about-feature .features-container_feature {
+    margin: 0;
+}
+
+.about-feature .features-container_feature-text {
+    max-width: 700px;
+}
+
+.about-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.about-heading h1 {
+    font-family: var(--font-family);
+    font-size: 45px;
+    font-weight: 900;
+    max-width: 500px;
+    line-height: 45px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.about-container .features-container_feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.about-container .features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .about-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-feature .features-container_feature {
+        flex-direction: column;
+    }
+
+    .about-feature .features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .about-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about-container .features-container_feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
