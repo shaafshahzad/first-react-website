@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/first-react-website/static/css/main.224b7bcb.css",
+    "main.js": "/first-react-website/static/js/main.c5e0edcb.js",
+    "static/media/people.png": "/first-react-website/static/media/people.acd3da13e34d5c96244d.png",
+    "static/media/eureka.png": "/first-react-website/static/media/eureka.a0dd077a237e930bb356.png",
+    "static/media/tech.png": "/first-react-website/static/media/tech.c1c75576d5cec6b654d1.png",
+    "static/media/logo.png": "/first-react-website/static/media/logo.eaceece13fc01eeafc74.png",
+    "index.html": "/first-react-website/index.html",
+    "main.224b7bcb.css.map": "/first-react-website/static/css/main.224b7bcb.css.map",
+    "main.c5e0edcb.js.map": "/first-react-website/static/js/main.c5e0edcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.224b7bcb.css",
+    "static/js/main.c5e0edcb.js"
+  ]
+}
